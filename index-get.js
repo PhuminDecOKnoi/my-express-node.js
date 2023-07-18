@@ -15,6 +15,10 @@ app.get('/about',(request, response)=>{ // app.get() - about.html
     rander(response, 'html/about.html');
 });
 
+app.get('/product',(request, response)=>{ // app.get() - product.html
+    rander(response, 'html/product.html');
+});
+
 app.use((request, response)=>{  // กรณีที่กำหนด Urlไม่ตรงกับ path เลย
     response.status(404);
     response.type('text/html');

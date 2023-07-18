@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "mysql": "^2.18.1",
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "uppercase": "^2.0.0-beta.23"
   }
 }

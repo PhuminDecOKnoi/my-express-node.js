@@ -6,7 +6,7 @@ app.use(function(request, response){
     
     response.status(200);
     response.type('text/html');
-    response.sendFile(path.join(__dirname,'index.html')); // การอ่านไฟล์ indes.html
+    response.sendFile(path.join(__dirname,'index.html')); // การอ่านไฟล์ index.html
     
     // หากต้องการใช้โมดูล fs ของ Node ทำได้ดังนี้
     fs.readFile('index.html',(error, content)=>{
